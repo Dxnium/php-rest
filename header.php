@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" data-bs-target="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="servicios.php">Servicios</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="acerca.php">Acerca</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="acerca.php">Acerca de Nosotros</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contactenos.php">Contactenos</a></li>
                 </ul>
             </div>
