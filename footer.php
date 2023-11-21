@@ -22,7 +22,7 @@
             <div class="col-lg-4">
                 <h4 class="text-uppercase mb-4">Acerca de nosotros</h4>
                 <p class="lead mb-0">
-                    Restaurante de comida rapida
+                    Restaurante de comida típica colombiana
                 </p>
             </div>
         </div>
