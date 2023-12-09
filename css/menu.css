@@ -2,6 +2,7 @@
 
 /*estilos propios de la pagina menu.php*/
 
+
 .redes i {
   padding: 30px;
   font-size: 40px;
@@ -12,22 +13,22 @@
 
 
 .card a:hover {
-  color: var(--amarilloContraste);
-  border: 2px var(--amarilloContraste) solid;
+  color: var(--rojo);
+  border: 2px var(--rojo) solid;
 }
 
 .card img{
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 
 .card h5{
-    height: 100px;
+    height: 50px;
 }
 
 .card{
     box-shadow: 4px 4px 15px;
-    height: 550px !important;
+    height: 400px !important;
     transition: transform 1s;
     -webkit-transition: transform 1s;
     -moz-transition: transform 1s;
