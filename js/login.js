@@ -3,7 +3,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
 
     const datos = $("#loginForm").serializeArray()
-    console.log(datos);
 
     $.ajax({
         type: "post",
