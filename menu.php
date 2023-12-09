@@ -4,11 +4,13 @@
   <!--Almuerzos-->
   <section class="row justify-content-evenly">
     <h2 class="text-center">Almuerzos</h2>
-    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
-      <img src="img/bandeja.png" class="card-img-top" alt="Platillo">
+    <div class="card col-md-6 col-lg-3 bg-amarillo" style="width: 18rem;">
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="img/bandeja.png" class="card-img-top" alt="Platillo">
+      </div>
       <div class="card-body">
         <h5 class="card-title">Bandeja Paisa</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-rojo">Ordenar</a>
       </div>
     </div>
 
@@ -29,9 +31,9 @@
     </div>
 
   </section>
-  
+
   <section class="row justify-content-evenly">
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/changua.png" class="card-img-top" alt="Platillo">
       <div class="card-body">
         <h5 class="card-title">Changua</h5>
@@ -58,8 +60,8 @@
 
   <!--Para el café-->
   <section class="row justify-content-evenly">
-  <h2 class="text-center">Para el café</h2>
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+    <h2 class="text-center">Para el café</h2>
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/arepa.png" class="card-img-top" alt="Platillo">
       <div class="card-body">
         <h5 class="card-title">Arepa</h5>
@@ -83,9 +85,9 @@
       </div>
     </div>
   </section>
-  
+
   <section class="row justify-content-evenly">
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/buñuelos.png" class="card-img-top" alt="Platillo">
       <div class="card-body">
         <h5 class="card-title">Buñuelos</h5>
@@ -110,10 +112,10 @@
     </div>
   </section>
 
-   <!--Refrescos-->
-   <section class="row justify-content-evenly">
-  <h2 class="text-center">Refrescos</h2>
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+  <!--Refrescos-->
+  <section class="row justify-content-evenly">
+    <h2 class="text-center">Refrescos</h2>
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/postobon.png" class="card-img-top" alt="Bebida">
       <div class="card-body">
         <h5 class="card-title">Bebidas Postobon</h5>
@@ -121,7 +123,7 @@
       </div>
     </div>
 
-    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+    <div class="card col-md-6 col-lg-3 bg-amarillo" style="width: 18rem;">
       <img src="img/fanta.png" class="card-img-top" alt="Bebida">
       <div class="card-body">
         <h5 class="card-title">Fanta Naranja</h5>
@@ -137,9 +139,9 @@
       </div>
     </div>
   </section>
-  
+
   <section class="row justify-content-evenly">
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/coca.png" class="card-img-top" alt="Bebida">
       <div class="card-body">
         <h5 class="card-title">Coca Cola</h5>
@@ -164,10 +166,10 @@
     </div>
   </section>
 
-   <!--Bebidas calientes-->
-   <section class="row justify-content-evenly">
-  <h2 class="text-center">Bebidas calientes</h2>
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+  <!--Bebidas calientes-->
+  <section class="row justify-content-evenly">
+    <h2 class="text-center">Bebidas calientes</h2>
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/chocolate.png" class="card-img-top" alt="Bebida">
       <div class="card-body">
         <h5 class="card-title">Chocolate</h5>
@@ -191,9 +193,9 @@
       </div>
     </div>
   </section>
-  
+
   <section class="row justify-content-evenly">
-  <div class="card col-md-6 col-lg-3" style="width: 18rem;">
+    <div class="card col-md-6 col-lg-3" style="width: 18rem;">
       <img src="img/periquito.png" class="card-img-top" alt="Bebida">
       <div class="card-body">
         <h5 class="card-title">Periquito</h5>
