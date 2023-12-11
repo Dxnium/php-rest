@@ -26,11 +26,16 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
               });
               
           }else{
-              Swal.fire({
-                title: "Inicio Sesion",
-                text: JSON.stringify(res[0],"", 2),
-                icon: "success"
+              // Swal.fire({
+              //   title: "Inicio Sesion",
+              //   text: JSON.stringify(res[0],"", 2),
+              //   icon: "success"
+              // });
+              Object.entries(res[0]).forEach(([key, value]) => {
+                localStorage.setItem(key, value);
               });
+              localStorage.setItem("admin", res[0]["usuario"] == "admin")
+              location.href = "admin"
           }
     
     

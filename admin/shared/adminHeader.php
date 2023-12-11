@@ -18,7 +18,9 @@
   <body>
 
 
-
+<?php
+$usuario = "<script>document.write(localStorage.getItem('usuario'));</script>";
+?>
 
 <nav class="navbar navbar-expand-lg nav-colo">
     <div class="container">
@@ -36,13 +38,16 @@
 <div class="sidebar">
     <div class="profile_info">
         <img src="https://i.imgur.com/9LDfN2H.jpg" class="profile_image" alt="">
-        <h4>Williamson</h4>
+        <?php
+        echo "<h4>$usuario</h4>"
+        ?>
     </div>
     <a href="index.php?page=usuarios"><i class="fas fa-desktop"></i><span>Usuarios</span></a>
     <a href="index.php?page=menu"><i class="fas fa-table"></i><span>Menu</span></a>
 </div>
     
 </body>
+
 
 
 

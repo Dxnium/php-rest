@@ -50,7 +50,10 @@
     height: 50px;
   }
   
-  
+  #myCarousel{
+    padding: 20px;
+    background: #000;
+  }
   
  
   

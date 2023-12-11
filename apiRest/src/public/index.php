@@ -75,4 +75,53 @@ $app->post('/login', function (Request $request, Response $response, array $args
 
 
 
+// crud menu
+
+$app->get('/getmenu', function (Request $request, Response $response, array $args) {
+    $db=conectar();
+    //definir el tipo de fetch
+    $db->SetFetchMode(ADODB_FETCH_ASSOC);
+    $sql="SELECT * FROM tmenu";
+    $res=$db->GetAll($sql);
+    //respuesta en formato json
+    $response->getBody()->write(json_encode($res));
+    return $response;
+});
+
+
+$app->post('/insmenu', function (Request $request, Response $response, array $args) {
+    //abrir la conexion
+    $db=conectar();
+    //obtener los datos a insertar
+    $rec=$request->getParsedBody();
+    $res=$db->AutoExecute("tmenu",$rec,"INSERT");
+    //retornar el valor que indica si se ejecuto correctamente        
+    $response->getBody()->write($res);
+    return $response;
+});
+
+
+//modificar
+$app->put('/updmenu', function (Request $request, Response $response, array $args) {
+    $db=conectar();
+    $rec=$request->getParsedBody();
+    $res=$db->AutoExecute("tmenu",$rec,"UPDATE","id=$rec[id]");
+    $response->getBody()->write($res);    
+    return $response;
+});
+
+//eliminar
+$app->delete('/delmenu/{id}', function (Request $request, Response $response, array $args) {
+    $id=$args["id"];
+    $db=conectar();
+    $sql="DELETE FROM tmenu WHERE id=$id";
+    $res=$db->execute($sql);
+    $response->getBody()->write($res);
+    return $response;
+});
+
+
+
+
+
 $app->run();
