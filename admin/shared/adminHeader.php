@@ -21,6 +21,19 @@
 $usuario = "<script>document.write(localStorage.getItem('usuario'));</script>";
 ?>
 
+
+<nav class="navbar navbar-expand-lg nav-colo">
+    <div class="container">
+        <a class="navbar-brand" href="/php-rest">ColoDelicias</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" data-bs-target="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+            </ul>
+        </div>
+    </div>
+</nav>  
 <!--sidebar start-->
 <div class="sidebar">
     <div class="profile_info">
@@ -33,6 +46,7 @@ $usuario = "<script>document.write(localStorage.getItem('usuario'));</script>";
 </div>
     
 </body>
+
 
 
 
