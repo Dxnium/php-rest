@@ -17,10 +17,10 @@
   </head>
   <body>
 
-
 <?php
 $usuario = "<script>document.write(localStorage.getItem('usuario'));</script>";
 ?>
+
 
 <nav class="navbar navbar-expand-lg nav-colo">
     <div class="container">
@@ -38,12 +38,11 @@ $usuario = "<script>document.write(localStorage.getItem('usuario'));</script>";
 <div class="sidebar">
     <div class="profile_info">
         <img src="https://i.imgur.com/9LDfN2H.jpg" class="profile_image" alt="">
-        <?php
-        echo "<h4>$usuario</h4>"
-        ?>
+        <h4 class="link-perfil"><span id="perfil-link"><?echo "$usuario" ?></span></h4>
     </div>
     <a href="index.php?page=usuarios"><i class="fas fa-desktop"></i><span>Usuarios</span></a>
     <a href="index.php?page=menu"><i class="fas fa-table"></i><span>Menu</span></a>
+    <a href="/php-rest/index.php"><i class="fa-solid fa-right-from-bracket"></i><span>Cerrar Sesion</span></a>
 </div>
     
 </body>

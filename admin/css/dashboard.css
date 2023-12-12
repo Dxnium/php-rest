@@ -249,3 +249,7 @@ label #sidebar_btn:hover {
         display: block;
     }
 }
+
+.link-perfil{
+    cursor: pointer;
+}

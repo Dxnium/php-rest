@@ -6,8 +6,11 @@
     <script src="https://kit.fontawesome.com/aa284dc2ce.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+
+    
+    <script src="./js/usuarios.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/nuevoMenu.js"></script>
     </html>
 
     <?php
-
-?>
