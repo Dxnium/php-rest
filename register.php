@@ -8,7 +8,7 @@
             </div>
             <form action="" id="registerForm">
                 <input type="text" name="usuario" placeholder="Usuario" required>
-                <input type="text" name="contrasena" placeholder="Contraseña" required>
+                <input type="password" name="contrasena" placeholder="Contraseña" required>
                 <input type="text" name="nombre" placeholder="Nombre" required>
                 <input type="text" name="apellidos" placeholder="Apellidos" required>
                 <input type="text" name="correo" placeholder="Correo" required>
