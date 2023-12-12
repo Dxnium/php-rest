@@ -59,7 +59,7 @@ document.querySelector("#datosTablaMenu").addEventListener("click", (e) => {
 
 
 
-
+ 
 
   function eliminar(id) {
     //console.log(id)
