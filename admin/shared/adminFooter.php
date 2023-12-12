@@ -10,6 +10,7 @@
     
     <script src="./js/usuarios.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/nuevoMenu.js"></script>
     </html>
 
     <?php
