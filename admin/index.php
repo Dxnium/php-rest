@@ -4,7 +4,7 @@
 
 ?>
 
-<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+<main class="">
     <?php
 
     switch ($page) {
@@ -13,9 +13,17 @@
         require "catalogos/usuarios/listaUsuarios.php";
 
         break;
+      case 'nuevoMenu':
+        $titulo = "Nuevo Menu";
+        require "catalogos/usuarios/nuevoMenu.php";
+        break;
       case 'menu':
         $titulo = "Catálogo Menu";
-        // require "catalogos/peliculas/listPeliculas.php";
+        require "catalogos/usuarios/listaMenu.php";
+        break;
+      case 'perfil':
+        $titulo = "Perfil";
+        require "catalogos/usuarios/perfil.php";
         break;
       default:
         $titulo = "Bienvenido";
