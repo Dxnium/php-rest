@@ -169,6 +169,15 @@ footer div a:hover {
   */
 }
 
+
+.menu-img{
+  width: 120px;
+  min-height: 120px;
+  max-height: 200px;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
  
   
 
