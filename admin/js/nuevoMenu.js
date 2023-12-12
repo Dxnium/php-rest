@@ -5,10 +5,16 @@ document.getElementById("frmMenu").addEventListener("submit", function (e) {
     const datos = $("#frmMenu").serializeArray()
     console.log(datos);
 
+    method = datos[0].value === "" ? "post" : "put"
+    url = datos[0].value === "" ? `http://localhost/php-rest/apirest/src/public/insmenu` : `http://localhost/php-rest/apirest/src/public/updmenu`
+
+
+    
     $.ajax({
-        type: "post",
-        url: `http://localhost/php-rest/apirest/src/public/insmenu`,
+        type: method,
+        url: url,
         data: {
+            "id": datos[0].value,
             "nombre": datos[1].value,
             "precio":  datos[2].value
         },

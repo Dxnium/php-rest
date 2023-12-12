@@ -45,10 +45,10 @@ document.querySelector("#datosTablaMenu").addEventListener("click", (e) => {
       e.target.classList.contains("fa-pen-to-square")) {
       {
           //generar variables de sesion
-          sessionStorage.setItem("nombre",e.target.closest("tr").childNodes[3].innerHTML)
+          sessionStorage.setItem("nombreMenu",e.target.closest("tr").childNodes[3].innerHTML)
           sessionStorage.setItem("precio",e.target.closest("tr").childNodes[5].innerHTML)
     
-          location.href="index.php?page=nuevoMenu";
+          location.href="index.php?page=nuevoMenuPut";
     
       }
     } else if (e.target.classList.contains("btn-outline-danger") ||
@@ -59,7 +59,7 @@ document.querySelector("#datosTablaMenu").addEventListener("click", (e) => {
 
 
 
-  
+
 
   function eliminar(id) {
     //console.log(id)
@@ -122,6 +122,3 @@ document.querySelector("#datosTablaMenu").addEventListener("click", (e) => {
 document.querySelector("#perfil-link").addEventListener("click", (e) => {
     location.href = "index.php?page=perfil"
 })
-
-
-  

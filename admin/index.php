@@ -17,6 +17,10 @@
         $titulo = "Nuevo Menu";
         require "catalogos/usuarios/nuevoMenu.php";
         break;
+      case 'nuevoMenuPut':
+        $titulo = "Nuevo Menu";
+        require "catalogos/usuarios/nuevoMenuPut.php";
+        break;
       case 'menu':
         $titulo = "Catálogo Menu";
         require "catalogos/usuarios/listaMenu.php";
