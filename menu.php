@@ -10,7 +10,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Bandeja Paisa</h5>
-        <a href="pedidos.php?id=1" class="btn bg-rojo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-rojo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -20,7 +20,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Lechona</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo ">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo " style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -30,7 +30,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Ajiaco</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -43,7 +43,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Changua</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
     <div class="card col-md-6 col-lg-3" style="width: 18rem;">
@@ -52,7 +52,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Picada</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
     <div class="card col-md-6 col-lg-3" style="width: 18rem;">
@@ -61,7 +61,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Sancocho</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
@@ -75,7 +75,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Arepa</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
     <div class="card col-md-6 col-lg-3" style="width: 18rem;">
@@ -84,7 +84,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Tamal</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo ">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo " style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
     <div class="card col-md-6 col-lg-3" style="width: 18rem;">
@@ -93,7 +93,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Almojabana</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
@@ -105,7 +105,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Buñuelos</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -115,7 +115,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Empanadas</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -125,7 +125,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Mantecada</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
@@ -139,7 +139,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Bebidas Postobon</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -149,7 +149,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Fanta Naranja</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo ">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -159,7 +159,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Fanta Kolita</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
@@ -171,7 +171,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Coca Cola</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -181,7 +181,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Fresca</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo ">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -191,7 +191,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Sprite</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
@@ -205,7 +205,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Chocolate</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -215,7 +215,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Aguapanela</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo ">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo " style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
 
@@ -225,7 +225,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Tinto</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
@@ -237,7 +237,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-title">Periquito</h5>
-        <a href="pedidos.php?id=1" class="btn bg-amarillo">Ordenar</a>
+        <a href="pedidos.php?id=1" class="btn bg-amarillo" style="background-color:red; color:white;">Ordenar</a>
       </div>
     </div>
   </section>
