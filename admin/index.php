@@ -26,7 +26,7 @@
         require "catalogos/usuarios/perfil.php";
         break;
       default:
-        $titulo = "Bienvenido";
+        require "catalogos/usuarios/perfil.php";
         break;
     }
 
