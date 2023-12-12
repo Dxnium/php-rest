@@ -29,6 +29,7 @@ $usuario = "<script>document.write(localStorage.getItem('usuario'));</script>";
     </div>
     <a href="index.php?page=usuarios"><i class="fas fa-desktop"></i><span>Usuarios</span></a>
     <a href="index.php?page=menu"><i class="fas fa-table"></i><span>Menu</span></a>
+    <a href="/php-rest/index.php"><i class="fa-solid fa-right-from-bracket"></i><span>Cerrar Sesion</span></a>
 </div>
     
 </body>
