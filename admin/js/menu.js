@@ -59,4 +59,13 @@ document.querySelector("#datosTablaMenu").addEventListener("click", (e) => {
       eliminar(e.target.closest("tr").childNodes[1].innerHTML)
     }
   })
+
+
+//crear eventos a nodos dinamicos
+//definir un eventlister al padre de los nodos dinamicos
+document.querySelector("#perfil-link").addEventListener("click", (e) => {
+    location.href = "index.php?page=perfil"
+})
+
+
   

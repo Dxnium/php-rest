@@ -13,9 +13,17 @@
         require "catalogos/usuarios/listaUsuarios.php";
 
         break;
+      case 'nuevoMenu':
+        $titulo = "Nuevo Menu";
+        require "catalogos/usuarios/nuevoMenu.php";
+        break;
       case 'menu':
         $titulo = "Catálogo Menu";
         require "catalogos/usuarios/listaMenu.php";
+        break;
+      case 'perfil':
+        $titulo = "Perfil";
+        require "catalogos/usuarios/perfil.php";
         break;
       default:
         $titulo = "Bienvenido";

@@ -41,3 +41,9 @@ function cargarTabla() {
     }
   });
 }
+
+//crear eventos a nodos dinamicos
+//definir un eventlister al padre de los nodos dinamicos
+document.querySelector("#perfil-link").addEventListener("click", (e) => {
+    location.href = "index.php?page=perfil"
+})
