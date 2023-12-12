@@ -13,6 +13,7 @@
                 <input type="text" name="apellidos" placeholder="Apellidos" required>
                 <input type="text" name="correo" placeholder="Correo" required>
                 <input type="text" name="fecha" placeholder="Fecha de Nacimiento" required>
+                <input type="text" name="telefono" placeholder="Telefono" required>
 
 
                 <button type="submit" title="Registrar" name="register">Registrarse</button>
