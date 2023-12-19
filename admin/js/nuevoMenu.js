@@ -7,8 +7,6 @@ document.getElementById("frmMenu").addEventListener("submit", function (e) {
 
     method = datos[0].value === "" ? "post" : "put"
     url = datos[0].value === "" ? `http://localhost/php-rest/apirest/src/public/insmenu` : `http://localhost/php-rest/apirest/src/public/updmenu`
-
-
     
     $.ajax({
         type: method,
@@ -16,7 +14,8 @@ document.getElementById("frmMenu").addEventListener("submit", function (e) {
         data: {
             "id": datos[0].value,
             "nombre": datos[1].value,
-            "precio":  datos[2].value
+            "precio":  datos[2].value,
+            "foto": datos[3].value
         },
         dataType: "JSON",
         beforeSend: function () {
@@ -31,6 +30,7 @@ document.getElementById("frmMenu").addEventListener("submit", function (e) {
     
         },
         error: function (xhr) {
+          console.log(xhr);
           alert("Error al procesar la petición");
           console.log(xhr.statusText + xhr.responseText);
         },
