@@ -30,11 +30,53 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row testimonios">
+        <h2 class="">Testimonios</h2>
+        <div class="mt-5 col-lg-3 testimonial-card">
+            <div class="info-testimonial">
+                <img src="https://i.imgur.com/9LDfN2H.jpg">
+                <p class="mt-5">La frescura de los ingredientes utilizados en cada platillo se hace evidente, destacando la calidad y el compromiso del restaurante con ofrecer una experiencia gastronómica excepcional. Además, el personal amable y atento añade un toque adicional de hospitalidad, haciendo que la visita a Colodelicias sea no solo deliciosa, sino también memorable.</p>
+            </div>
 
-    <h2>Testimonio</h2>
-    <p class="col-md-6">La empresa de comida ColoDelicias fundada por tres compañeros, no se trata solo de comida, sino de una experiencia que despierta los sentidos y te sumerge por completo en la riqueza de los sabores auténticos de Colombia.
-        Lo que más me fascina es la dedicación y pasión que estos emprendedores ponen en cada detalle. Desde la cuidadosa elección de ingredientes frescos hasta la presentación impecable de cada platillo, es evidente que han puesto su corazón en ofrecer lo mejor a nuestros clientes.
-        El menú es una verdadera obra maestra. Desde las tradicionales arepas y empanadas hasta platos más elaborados como bandejas paisas y ajiaco, cada opción refleja la autenticidad y diversidad de la cocina colombiana.</p>
+            <div class="profile">
+                <h4>Oscar Muñoz</h4>
+                <p>Cliente</p>
+            </div>
+
+        </div>
+        <div class="mt-5 col-lg-3 testimonial-card">
+            <div class="info-testimonial">
+                <img src="https://i.imgur.com/9LDfN2H.jpg">
+                <p class="mt-5">Desde el momento en que cruzas la puerta de Colodelicias, te sumerges en un ambiente acogedor que refleja la calidez y la hospitalidad colombiana. La decoración, llena de colores vibrantes y detalles folklóricos, crea un ambiente festivo que invita a disfrutar de la comida en un entorno alegre y familiar.</p>
+            </div>
+
+            <div class="profile">
+                <h4>Fiorella Orozco</h4>
+                <p>Cliente</p>
+            </div>
+
+        </div>
+        <div class="mt-5 col-lg-3 testimonial-card">
+            <div class="info-testimonial">
+                <img src="https://i.imgur.com/9LDfN2H.jpg">
+                <p class="mt-5">La carta de Colodelicias es un verdadero festín para los sentidos, ofreciendo una amplia variedad de platillos que capturan la esencia de la cocina colombiana. Desde las emblemáticas arepas y empanadas, hasta platos más elaborados como el sancocho o el ajiaco, cada bocado es una explosión de sabores auténticos que transportan a los comensales directamente a las tradiciones culinarias de Colombia.</p>
+            </div>
+
+            <div class="profile">
+                <h4>Sebastian Del Barco</h4>
+                <p>Cliente</p>
+            </div>
+
+        </div>
+    </div>
 
 </main>
 
